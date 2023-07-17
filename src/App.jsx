@@ -1,8 +1,5 @@
-import { useState } from "react";
 import { Navbar } from "./components/Navbar";
-import { Hero } from "./components/Hero";
 import { Footer } from "./components/Footer";
-import { Clients } from "./components/Clients";
 import { Route, Routes } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { Who } from "./pages/Who";
@@ -12,8 +9,9 @@ import { Special } from "./pages/Special";
 import { Wedding } from "./pages/Wedding";
 import { ClientPage } from "./pages/Clients";
 import { Sports } from "./pages/Sports";
-import { Careers } from "./pages/careers";
+
 import { Launch } from "./pages/Launch";
+import { Careers } from "./pages/Careers";
 
 function App() {
   return (
