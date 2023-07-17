@@ -61,6 +61,8 @@ const ClientsCards = ({ review, name, company }) => {
             src="/male.webp"
             alt=""
           />
+
+          {/* hello */}
           <div className="ml-4">
             <p className="text-base font-bold text-gray-900 font-pj">{name}</p>
             <p className="mt-0.5 text-sm font-pj text-gray-600">{company}</p>
