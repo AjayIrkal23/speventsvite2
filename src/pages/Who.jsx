@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import Carousel from "better-react-carousel";
 import { DefaultPlayer as Video } from "react-html5video";
 import "react-html5video/dist/styles.css";
 

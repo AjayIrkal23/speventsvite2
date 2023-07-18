@@ -1,5 +1,4 @@
 import React from "react";
-import Carousel from "better-react-carousel";
 import { Typewriter } from "react-simple-typewriter";
 import { Item } from "./Item";
 import { ImagesHero } from "./ImagesHero";
@@ -17,67 +16,11 @@ const Hero = () => {
   return (
     <div>
       <div className="relative">
-        <Carousel
-          arrowLeft={
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-12 h-12 text-white/50 absolute z-[999] top-[50%]  cursor-pointer hover:text-white left-[5%]"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M15.75 19.5L8.25 12l7.5-7.5"
-              />
-            </svg>
-          }
-          arrowRight={
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-12 h-12 text-white/50 absolute z-[999] top-[50%]  cursor-pointer hover:text-white right-[5%]"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M8.25 4.5l7.5 7.5-7.5 7.5"
-              />
-            </svg>
-          }
-          loop
-          hideArrow={false}
-          autoplay={5000}
-        >
-          <Carousel.Item className="!m-0">
-            <div className=" md:w-screen ">
-              <Video autoPlay className="md:h-[900px]">
-                <source src="/videos/bg1.mp4" type="video/webm" />
-              </Video>
-            </div>
-          </Carousel.Item>
-          <Carousel.Item className="!m-0">
-            <div className=" md:w-screen ">
-              <Video autoPlay className="md:h-[900px]">
-                <source src="/videos/bg2.mp4" type="video/webm" />
-              </Video>
-            </div>
-          </Carousel.Item>
-          <Carousel.Item>
-            <div className=" md:w-screen ">
-              <Video autoPlay className="md:h-[900px]">
-                <source src="/videos/bg3.mp4" type="video/webm" />
-              </Video>
-            </div>
-          </Carousel.Item>
-
-          {/* ... */}
-        </Carousel>
+        <div className=" md:w-screen ">
+          <Video autoPlay className="md:h-[900px]">
+            <source src="/videos/bg1.mp4" type="video/webm" />
+          </Video>
+        </div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
