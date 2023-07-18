@@ -69,9 +69,13 @@ const Who = () => {
         </div>
         <div className="flex sm:px-[10%] flex-col md:flex-row px-2 gap-3 ">
           <div className="basis-1/4 px-6 ">
-            <img src="/founders/1.png" alt="" className=" h-[400px] w-full" />
+            <img
+              src="/founders/1.png"
+              alt=""
+              className=" h-[400px] w-[300px] mx-auto  md:w-full"
+            />
           </div>
-          <div className="   sm:text-start pt-2 basis-3/4 flex flex-col gap-6 text-[13px] text-gray-700 leading-6 text-center ">
+          <div className="   sm:text-start pt-2 basis-3/4 flex flex-col gap-6 text-[13px] text-gray-700 leading-6 text-center px-3 md:px-0">
             <p>
               Mr. Samarth U. Patangi, the Founder and CEO of THE SP EVENTS,
               describes himself as a complete Hublian at heart, an engineer by
@@ -124,9 +128,13 @@ const Who = () => {
       <div className=" mb-8">
         <div className="flex sm:px-[10%] flex-col md:flex-row px-2 gap-5 ">
           <div className="basis-1/4 px-6 ">
-            <img src="/founders/2.png" alt="" className=" h-[380px] w-full" />
+            <img
+              src="/founders/2.png"
+              alt=""
+              className=" h-[400px] w-[300px] mx-auto  md:w-full"
+            />
           </div>
-          <div className="  sm:text-start pt-2 basis-3/4 flex flex-col gap-8 text-[13px] text-gray-700 leading-6 text-center ">
+          <div className="  sm:text-start pt-2 basis-3/4 flex flex-col gap-8 text-[13px]  text-gray-700 leading-6 text-center md:px-0 px-3">
             <p>
               Mr. Mukhesh S Havaldar the C0-Founder and Managing Director of THE
               SP EVENTS, The master Mukhesh S Havaldar has been in the industry
