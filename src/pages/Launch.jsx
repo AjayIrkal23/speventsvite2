@@ -52,7 +52,7 @@ const Launch = () => {
           <Video
             url={"/videos/l.webp"}
             pUrl={"/videos/photos/l.webp"}
-            sec={4500}
+            sec={3200}
           />
         </div>
         <svg

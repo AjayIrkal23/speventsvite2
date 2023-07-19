@@ -56,7 +56,7 @@ const Sports = () => {
           <Video
             url={"/videos/sp.webp"}
             pUrl={"/videos/photos/sp.webp"}
-            sec={4500}
+            sec={3700}
           />
         </div>
         <svg

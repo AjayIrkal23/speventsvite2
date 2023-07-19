@@ -135,7 +135,7 @@ const Wedding = () => {
           <Video
             url={"/videos/w.webp"}
             pUrl={"/videos/photos/w.webp"}
-            sec={5500}
+            sec={3.4}
           />
         </div>
         <svg

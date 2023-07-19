@@ -106,7 +106,7 @@ const Special = () => {
           <Video
             url={"/videos/s.webp"}
             pUrl={"/videos/photos/s.webp"}
-            sec={4000}
+            sec={2.8}
           />
         </div>
         <svg

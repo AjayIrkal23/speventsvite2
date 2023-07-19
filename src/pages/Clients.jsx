@@ -56,7 +56,7 @@ const ClientPage = () => {
           <Video
             url={"/videos/c.webp"}
             pUrl={"/videos/photos/c.webp"}
-            sec={2000}
+            sec={1900}
           />
         </div>
         <svg
