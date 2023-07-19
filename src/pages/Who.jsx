@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
-import { DefaultPlayer as Video } from "react-html5video";
+
 import "react-html5video/dist/styles.css";
+import Video from "../components/Video";
 
 const Who = () => {
   useEffect(() => {
@@ -21,10 +22,12 @@ const Who = () => {
   return (
     <div className="">
       <div className="relative">
-        <div className=" md:w-screen ">
-          <Video autoPlay className="md:h-[900px]">
-            <source src="/videos/whoare.mp4" type="video/webm" />
-          </Video>
+        <div className=" md:w-screen md:mt-16">
+          <Video
+            url={"/videos/who.webp"}
+            pUrl={"/videos/photos/who.webp"}
+            sec={3000}
+          />
         </div>
         <svg
           xmlns="http://www.w3.org/2000/svg"

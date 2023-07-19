@@ -1,7 +1,8 @@
 import React, { useEffect } from "react";
 import { EventCard } from "../components/EventCard";
-import { DefaultPlayer as Video } from "react-html5video";
+
 import "react-html5video/dist/styles.css";
+import Video from "../components/Video";
 
 const Wedding = () => {
   useEffect(() => {
@@ -131,9 +132,11 @@ const Wedding = () => {
       {" "}
       <div className="relative">
         <div className=" md:w-screen ">
-          <Video autoPlay className="md:h-[900px]">
-            <source src="/videos/wedding.mp4" type="video/webm" />
-          </Video>
+          <Video
+            url={"/videos/w.webp"}
+            pUrl={"/videos/photos/w.webp"}
+            sec={5500}
+          />
         </div>
         <svg
           xmlns="http://www.w3.org/2000/svg"

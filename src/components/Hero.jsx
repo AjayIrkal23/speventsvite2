@@ -2,9 +2,9 @@ import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import { Item } from "./Item";
 import { ImagesHero } from "./ImagesHero";
-import { DefaultPlayer as Video } from "react-html5video";
-import "react-html5video/dist/styles.css";
+
 import { LatestEventsCard } from "./LatestEventsCard";
+import Video from "./Video";
 const Hero = () => {
   const goToTop = () => {
     window.scrollTo({
@@ -17,9 +17,11 @@ const Hero = () => {
     <div>
       <div className="relative">
         <div className=" md:w-screen ">
-          <Video autoPlay className="md:h-[900px]">
-            <source src="/videos/bg1.mp4" type="video/webm" />
-          </Video>
+          <Video
+            url={"/videos/bg1.webp"}
+            pUrl={"/videos/photos/bg1.png"}
+            sec={4000}
+          />
         </div>
         <svg
           xmlns="http://www.w3.org/2000/svg"

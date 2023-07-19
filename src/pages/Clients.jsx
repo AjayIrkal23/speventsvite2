@@ -4,10 +4,11 @@ import { useEffect, useState } from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-import { DefaultPlayer as Video } from "react-html5video";
+
 import "react-html5video/dist/styles.css";
 
 import { Clients } from "../components/Clients";
+import Video from "../components/Video";
 
 const ClientPage = () => {
   useEffect(() => {
@@ -51,10 +52,12 @@ const ClientPage = () => {
     <div>
       {" "}
       <div className="relative">
-        <div className=" md:w-screen ">
-          <Video autoPlay className="md:h-[900px]">
-            <source src="/videos/clients.mp4" type="video/webm" />
-          </Video>
+        <div className=" md:w-screen bg-black object-contain">
+          <Video
+            url={"/videos/c.webp"}
+            pUrl={"/videos/photos/c.webp"}
+            sec={2000}
+          />
         </div>
         <svg
           xmlns="http://www.w3.org/2000/svg"

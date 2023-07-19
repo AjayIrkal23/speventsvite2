@@ -40,34 +40,34 @@ const Navbar = () => {
             </div>
           </div>
           <div className="flex-col items-center justify-center my-12 space-y-1">
-            <Link to="/">
+            <Link to="/" onClick={() => setIsActive(!isActive)}>
               <NavItem title="Home" />
             </Link>
-            <Link to="/WhoAreWe">
+            <Link to="/WhoAreWe" onClick={() => setIsActive(!isActive)}>
               <NavItem title="Who are We" />
             </Link>
-            <Link to="/musicEvents">
+            <Link to="/musicEvents" onClick={() => setIsActive(!isActive)}>
               <NavItem title="Music Events" />
             </Link>
-            <Link to="/sportsEvents">
+            <Link to="/sportsEvents" onClick={() => setIsActive(!isActive)}>
               <NavItem title="Sports Events" />
             </Link>
-            <Link to="/corporateEvents">
+            <Link to="/corporateEvents" onClick={() => setIsActive(!isActive)}>
               <NavItem title="Corporate Events" />
             </Link>
-            <Link to="/specialEvents">
+            <Link to="/specialEvents" onClick={() => setIsActive(!isActive)}>
               <NavItem title="Special Events" />
             </Link>
-            <Link to="/launchEvents">
+            <Link to="/launchEvents" onClick={() => setIsActive(!isActive)}>
               <NavItem title="Launch Events" />
             </Link>
-            <Link to="/weddingEvents">
+            <Link to="/weddingEvents" onClick={() => setIsActive(!isActive)}>
               <NavItem title="Wedding Events" />
             </Link>
-            <Link to="/clients">
+            <Link to="/clients" onClick={() => setIsActive(!isActive)}>
               <NavItem title="Clients" />
             </Link>
-            <Link to="/contact">
+            <Link to="/contact" onClick={() => setIsActive(!isActive)}>
               <NavItem title="Contact Us" />
             </Link>
           </div>

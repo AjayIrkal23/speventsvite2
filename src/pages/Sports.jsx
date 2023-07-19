@@ -1,7 +1,8 @@
 import { useEffect } from "react";
 import { EventCard } from "../components/EventCard";
-import { DefaultPlayer as Video } from "react-html5video";
+
 import "react-html5video/dist/styles.css";
+import Video from "../components/Video";
 
 const events = [
   {
@@ -52,9 +53,11 @@ const Sports = () => {
       {" "}
       <div className="relative">
         <div className=" md:w-screen ">
-          <Video autoPlay className="md:h-[900px]">
-            <source src="/videos/sports.mp4" type="video/webm" />
-          </Video>
+          <Video
+            url={"/videos/sp.webp"}
+            pUrl={"/videos/photos/sp.webp"}
+            sec={4500}
+          />
         </div>
         <svg
           xmlns="http://www.w3.org/2000/svg"

@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { EventCard } from "../components/EventCard";
-import { DefaultPlayer as Video } from "react-html5video";
+
 import "react-html5video/dist/styles.css";
+import Video from "../components/Video";
 
 const events = [
   {
@@ -121,9 +122,11 @@ const Political = () => {
       {" "}
       <div className="relative">
         <div className=" md:w-screen ">
-          <Video autoPlay className="">
-            <source src="/videos/music.mp4" type="video/webm" />
-          </Video>
+          <Video
+            url={"/videos/music.webp"}
+            pUrl={"/videos/photos/music.webp"}
+            sec={4000}
+          />
         </div>
 
         <svg

@@ -1,8 +1,9 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
-import { DefaultPlayer as Video } from "react-html5video";
+
 import "react-html5video/dist/styles.css";
+import Video from "../components/Video";
 
 const Careers = () => {
   const [name, setName] = useState();
@@ -47,9 +48,11 @@ const Careers = () => {
         <div className="relative">
           <Toaster />
           <div className=" md:w-screen ">
-            <Video autoPlay className="md:h-[900px]">
-              <source src="/videos/contact.mp4" type="video/webm" />
-            </Video>
+            <Video
+              url={"/videos/contact.webp"}
+              pUrl={"/videos/photos/contact.webp"}
+              sec={4000}
+            />
           </div>
           <svg
             xmlns="http://www.w3.org/2000/svg"

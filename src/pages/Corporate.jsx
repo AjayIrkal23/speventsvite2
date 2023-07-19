@@ -1,7 +1,8 @@
 import React, { useEffect } from "react";
 import { EventCard } from "../components/EventCard";
-import { DefaultPlayer as Video } from "react-html5video";
+
 import "react-html5video/dist/styles.css";
+import Video from "../components/Video";
 
 const Corporate = () => {
   useEffect(() => {
@@ -144,9 +145,11 @@ const Corporate = () => {
       {" "}
       <div className="relative">
         <div className=" md:w-screen ">
-          <Video autoPlay className="md:h-[900px]">
-            <source src="/videos/corporate.mp4" type="video/webm" />
-          </Video>
+          <Video
+            url={"/videos/cor.webp"}
+            pUrl={"/videos/photos/cor.webp"}
+            sec={4000}
+          />
         </div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
