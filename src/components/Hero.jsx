@@ -20,7 +20,7 @@ const Hero = () => {
           <Video
             url={"/videos/bg1.webp"}
             pUrl={"/videos/photos/bg1.png"}
-            sec={3150}
+            sec={2800}
           />
         </div>
         <svg

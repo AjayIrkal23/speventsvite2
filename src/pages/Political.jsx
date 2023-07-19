@@ -125,7 +125,7 @@ const Political = () => {
           <Video
             url={"/videos/music.webp"}
             pUrl={"/videos/photos/music.webp"}
-            sec={3200}
+            sec={2900}
           />
         </div>
 

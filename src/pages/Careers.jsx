@@ -51,7 +51,7 @@ const Careers = () => {
             <Video
               url={"/videos/contact.webp"}
               pUrl={"/videos/photos/contact.webp"}
-              sec={3000}
+              sec={2800}
             />
           </div>
           <svg

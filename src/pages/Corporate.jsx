@@ -148,7 +148,7 @@ const Corporate = () => {
           <Video
             url={"/videos/cor.webp"}
             pUrl={"/videos/photos/cor.webp"}
-            sec={3000}
+            sec={2800}
           />
         </div>
         <svg

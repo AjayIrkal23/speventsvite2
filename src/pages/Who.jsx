@@ -26,7 +26,7 @@ const Who = () => {
           <Video
             url={"/videos/who.webp"}
             pUrl={"/videos/photos/who.webp"}
-            sec={3000}
+            sec={2800}
           />
         </div>
         <svg
